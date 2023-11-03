@@ -27,6 +27,6 @@
     width: 30rem;
     border-radius: 1rem;
     margin-top: 6rem;
-    object-fit:cover;
+    object-fit:fill;
 
 }
