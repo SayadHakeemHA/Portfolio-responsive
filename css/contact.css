@@ -1,0 +1,84 @@
+.contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    /* border: 2px solid white; */
+    flex: 1 1 20rem;
+    /* padding: 3rem; */
+    margin-left: 25rem;
+
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+} 
+.contact .row  form .box{
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background-color: #333333;
+    color: white;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+.contact .row  form .box::placeholder{
+    text-transform: capitalize;
+}
+.contact .row form #message{
+    height: 15rem;
+    resize: none;
+    /* border-radius: 1rem; */
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.contact .row .content .info h3.lower{
+    text-transform: lowercase;
+
+}
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: var(--springGreen);
+}
+form button{
+    margin-left: 35rem;
+    border-radius: 1rem;
+}
+.form-btn{
+    background-color: var(--springGreen);
+    color: #222;
+}
+.form-btn:hover{
+    background-color:aqua;
+    color: black;
+}
+/* scroll for top */
+.top{
+    position: fixed;
+    bottom: 3.5rem;
+    right: 2rem;
+    z-index: 100;
+    display: none;
+}
+.top img{
+    width: 10rem;
+}

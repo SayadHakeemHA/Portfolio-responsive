@@ -1,0 +1,86 @@
+/* =============================== */
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .home{
+        padding: 1rem 4rem;
+    }
+    
+
+
+
+}
+
+
+@media (max-width:991px){
+    header{
+        left: -120%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left: 0%;
+    }
+    body{
+        padding: 1%;
+    }
+    .skill{
+        padding-right: 8rem;
+    }
+}
+
+
+@media (max-width:868px){
+    html{
+        font-size: 50%;
+    }
+    section{
+        min-height: 60vh;
+    }
+    .contact .row .content{
+        margin-left: 15rem;
+    }
+
+
+   
+}
+
+
+@media (max-width:430px){
+    header{
+        width: 100vw;
+    }
+
+    .home2 img{
+        margin-left: 7rem;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        margin: 0 3rem;
+    }
+    .about .row .counter .box{
+        width: 100%;
+    }
+    .education .box-container .box{
+        width: 100%;
+    }
+    .projects .box-container .box{
+        width: 100%;
+    }
+    .contact .row form{
+        margin: 3rem 0;
+    }
+    .contact .row .content{
+        margin-left: 4rem;
+    }
+    form button{
+        margin-left: 17rem;
+        border-radius: 1rem;
+    }
+}

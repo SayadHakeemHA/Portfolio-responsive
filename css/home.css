@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    padding: 10rem 10rem;
+    gap: 3rem;
+}
+.home h3{
+    font-size: 2.5rem;
+    color: white;
+}
+.home h1{
+    font-size: 5rem;
+    color: white;
+}
+.home h1 span{
+    color: var(--springGreen);
+}
+.home p{
+    color: white;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.home2>img{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1rem;
+    margin-top: 6rem;
+    object-fit:cover;
+
+}

@@ -1,0 +1,98 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background-color: #fc06df;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-flow: column;
+    /* overflow-y: scroll;
+    /* height: 130vh; */
+    /* padding: 5rem 0; */
+    /* display: none; */
+}
+
+/* header::-webkit-scrollbar{
+    width: 0.3rem;
+}
+header::-webkit-scrollbar-track{
+    background-color: #222;
+}
+header::-webkit-scrollbar-thumb{
+    background-color: var(--springGreen);
+} */
+
+header .user img{
+    height: 18rem;
+    width: 16rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+    border-radius: 50%;
+    border: 0.4rem solid var(--springGreen);
+}
+header .user .name{
+    font-size: 2.5rem;
+    color: black;
+}
+.nick-name{
+    font-size: 1.5rem;
+    color: black;
+}
+header .user .post{
+    font-size: 1.6rem ;
+    color:black;
+}
+header .navbar{
+    width: 100%;
+}
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    /* background-color: #333; */
+    color: black;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border-radius: 1rem;
+}
+header .navbar ul li a:hover{
+
+    color:aqua;
+    font-weight: 750;
+    letter-spacing: 0.2rem;
+    transition: all 0.5s linear;
+}
+#menu{
+    position:fixed;
+    top: 2rem;
+    right: 2rem;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+.home1 button{
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    height: 5rem;
+    padding: 0;
+    width: 20rem;
+    background-color: white;
+    color: black;
+}
+.home1 button:hover{
+    background-color: aqua;
+}
