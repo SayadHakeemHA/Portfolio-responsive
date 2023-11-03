@@ -52,9 +52,12 @@
     header{
         width: 100vw;
     }
-
+    
+    .home2{
+        margin-left: 2rem;
+    }
     .home2 img{
-        margin-left: 7rem;
+    
     }
 
     .home{
