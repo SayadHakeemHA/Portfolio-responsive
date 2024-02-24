@@ -12,7 +12,7 @@
     text-decoration: none;
     outline: none;
     border: none;
-    text-transform: capitalize;
+    line-height: 3rem;
     transition: all 0.2s linear;
 }
 

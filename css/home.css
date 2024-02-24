@@ -1,50 +1,22 @@
 .home{
     padding: 5rem 5rem 5rem 5rem;
-    margin: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.home h3{
-    font-size: 2.5rem;
+    flex-direction: column;
+    justify-content:center;
     color: white;
-}
-.home h1{
-    font-size: 5rem;
-    color: white;
-}
-.home h1 span{
-    color: var(--springGreen);
-}
-.home>.home1>a>button{
-    margin: auto;
+    align-items:flex-start;
+    font-size: 2rem;
+    margin-top: 3rem;
 }
 .home p{
-    color: white;
-    padding: 1rem 0;
-    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.home h1{
+    margin-bottom: 1rem;
+    color:var(--springGreen);
 }
 
-.home2>img{
-    height:40rem;
-    width: 30rem;
-    margin: auto;
-    border-radius: 1rem;
-    border: 2px solid var(--springGreen);
-    object-fit:cover;
-    box-shadow: 0px 0px 25px 8px var(--springGreen)!important;
-}
-.home2{
-    /* border: 2px solid white; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-    object-fit:fill;
-}
-
-.home .home1 h1 .example-selector{
+/* .home .home1 h1 .example-selector{
     text-shadow: 3px 3px 2px yellow;
     font-size: 45px ;
     color: black;
@@ -53,4 +25,4 @@
     font-size: 35px ;
     color:red;
     font-weight: 900;
-}
+} */
