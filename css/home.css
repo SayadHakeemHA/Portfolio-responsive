@@ -1,4 +1,4 @@
-section>.home{
+.home{
     padding: 5rem 5rem 5rem 5rem;
     display: flex;
     flex-direction: column;
@@ -8,10 +8,10 @@ section>.home{
     font-size: 2rem;
     margin-top: 3rem;
 }
-section>.home p{
+.home p{
     margin-bottom: 1rem;
 }
-section>.home h1{
+.home h1{
     margin-bottom: 1rem;
     color:var(--springGreen);
 }
