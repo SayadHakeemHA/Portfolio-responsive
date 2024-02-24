@@ -43,3 +43,14 @@
     border-radius: 1rem;
     object-fit:fill;
 }
+
+.home .home1 h1 .example-selector{
+    text-shadow: 3px 3px 2px yellow;
+    font-size: 45px ;
+    color: black;
+}
+.home .home1 h1 .example-selector{
+    font-size: 35px ;
+    color:red;
+    font-weight: 900;
+}
