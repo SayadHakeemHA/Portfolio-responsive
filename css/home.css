@@ -16,6 +16,9 @@
 .home h1 span{
     color: var(--springGreen);
 }
+.home>.home1>a>button{
+    margin: auto;
+}
 .home p{
     color: white;
     padding: 1rem 0;
