@@ -1,4 +1,4 @@
-header{
+.header{
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +27,7 @@ header::-webkit-scrollbar-thumb{
     background-color: var(--springGreen);
 } */
 
-header .user img{
+.header .user img{
     height: 18rem;
     width: 16rem;
     object-fit: cover;
@@ -36,7 +36,7 @@ header .user img{
     border-radius: 50%;
     border: 0.4rem solid var(--springGreen);
 }
-header .user .name{
+.header .user .name{
     font-size: 2.5rem;
     color: black;
 }
@@ -44,18 +44,18 @@ header .user .name{
     font-size: 1.5rem;
     color: black;
 }
-header .user .post{
+.header .user .post{
     font-size: 1.6rem ;
     color:black;
 }
-header .navbar{
+.header .navbar{
     width: 100%;
 }
-header .navbar ul{
+.header .navbar ul{
     list-style: none;
     padding: 1rem 3rem;
 }
-header .navbar ul li a{
+.header .navbar ul li a{
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
@@ -65,7 +65,7 @@ header .navbar ul li a{
     font-weight: 600;
     border-radius: 1rem;
 }
-header .navbar ul li a:hover{
+.header .navbar ul li a:hover{
 
     color:aqua;
     font-weight: 750;

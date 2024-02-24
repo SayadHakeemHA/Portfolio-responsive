@@ -33,7 +33,7 @@
     border-radius: 1rem;
     border: 2px solid var(--springGreen);
     object-fit:cover;
-    box-shadow: 0px 0px 25px 8px var(--springGreen);
+    box-shadow: 0px 0px 25px 8px var(--springGreen)!important;
 }
 .home2{
     /* border: 2px solid white; */
