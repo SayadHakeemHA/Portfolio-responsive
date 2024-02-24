@@ -60,10 +60,13 @@
         height: 35rem;
         width: 25rem;
     }
-
+    .home1{
+        margin-bottom: 4rem ;
+    }
     .home{
         display: flex;
         flex-direction: column;
+    
     }
     .heading{
         margin: 0 3rem;
