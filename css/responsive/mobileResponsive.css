@@ -54,7 +54,11 @@
     }
     
     .home2{
-        margin-left: 2rem;
+        margin: auto;
+    }
+    .home2>img{
+        height: 35rem;
+        width: 25rem;
     }
 
     .home{
@@ -80,7 +84,7 @@
         margin-left: 4rem;
     }
     form button{
-        margin-left: 17rem;
+        margin: 0 auto;
         border-radius: 1rem;
     }
 }
