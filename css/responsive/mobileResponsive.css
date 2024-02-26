@@ -54,24 +54,28 @@
     }
     
     .home2{
-        margin: auto;
+        margin-left:5%;
     }
     .home2>img{
-        height: 35rem;
-        width: 25rem;
+        margin-top: 3rem;
+        height: 38rem;
+        width: 29rem;
     }
     .home1{
-        margin-bottom: 4rem ;
+    margin-left: 5%;
     }
     .home{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: flex-start;
         color: white;
         font-size: 2rem;
         flex-wrap: wrap;
-        padding-top: 3rem;
-    
+        /* padding-top: 3rem; */
+    }
+    .home>h1{
+    font-size: 4rem;
     }
     .heading{
         margin: 0 3rem;
